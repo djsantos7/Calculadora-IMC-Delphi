@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/07/08 14:24:58.000.923,=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 14:27:34.000.833,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\uCalculadoraIMC.pas</Transaction>
+    <Transaction>2024/07/08 14:27:34.000.833,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\uCalculadoraIMC.dfm</Transaction>
+    <Transaction>2024/07/08 14:27:50.000.173,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\CalculadoraIMC.dproj</Transaction>
+    <Transaction>2024/07/08 14:59:09.000.044,=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 14:59:31.000.103,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.pas=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\uExplicacaoIMC.pas</Transaction>
+    <Transaction>2024/07/08 14:59:31.000.103,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.dfm=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\uExplicacaoIMC.dfm</Transaction>
+    <Transaction>2024/07/08 15:18:15.000.174,=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 15:19:09.000.138,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.pas=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\uResultadoIMC.pas</Transaction>
+    <Transaction>2024/07/08 15:19:09.000.138,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.dfm=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\uResultadoIMC.dfm</Transaction>
+    <Transaction>2024/07/08 16:06:36.000.619,=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.pas</Transaction>
+    <Transaction>2024/07/08 16:07:27.000.089,C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\Unit1.pas=C:\Users\davis_c12wmxt\OneDrive\Documentos\Embarcadero\Studio\Projects\Nova pasta\uDados.pas</Transaction>
+  </Transactions>
+</BorlandProject>

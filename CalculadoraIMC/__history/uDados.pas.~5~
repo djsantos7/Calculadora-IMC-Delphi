@@ -1,0 +1,22 @@
+unit uDados;
+
+interface
+type
+  rdados = record
+  altura: double;
+  peso: double;
+  sexo: string;
+  imc: string;
+  estado: string;
+end;
+var
+  dados: rdados;
+
+function calculoIMC (dpeso, daltura, dsexo: string): string;
+
+
+
+
+implementation
+
+end.

@@ -1,0 +1,15 @@
+unit uDados;
+
+interface
+type
+  rdados = record
+  altura: double;
+  peso: double;
+  sexo: string;
+  imc: string;
+end;
+var
+  teste: rdados;
+implementation
+
+end.

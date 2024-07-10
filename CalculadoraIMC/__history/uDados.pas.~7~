@@ -1,0 +1,76 @@
+unit uDados;
+
+interface
+
+uses
+  System.SysUtils;
+type
+  rdados = record
+  altura: double;
+  peso: double;
+  sexo: string;
+  imc: string;
+  estado: string;
+end;
+function CalcularIMC (dpeso, daltura: Double; dsexo: String): string;
+
+var
+  dados: rdados;
+implementation
+
+function CalcularIMC (dpeso, daltura: Double; dsexo: String): string;
+var
+  rimc: Double;
+  strimc: String;
+
+begin
+
+  if dsexo = '' then
+    raise Exception.Create('Insira o Sexo');
+
+  try
+    rimc := dpeso/(daltura*daltura);
+    if dsexo = 'Feminino' then
+    begin
+      if (rimc < 19 ) then
+          strimc:= 'Abaixo do Peso'
+        else
+          if (rimc >= 19) and (rimc < 24) then
+              strimc := 'Peso Ideal'
+          else
+            if (rimc >= 24) and (rimc < 29) then
+                strimc := 'Obesidade Leve'
+            else
+              if (rimc >= 29) and (rimc < 39) then
+                 strimc := 'Obesidade Moderada'
+              else
+                if (rimc >= 39) then
+                    strimc := 'Obedidade Mórbida'
+
+  end
+  else
+  begin
+    if dsexo = 'Masculino' then
+    begin
+      if (rimc <20) then
+          strimc := 'Abaixo do Peso'
+        else
+          if (rimc >= 20) and (rimc < 25) then
+              strimc := 'Peso Ideal'
+          else
+            if (rimc >= 25) and (rimc < 30) then
+                strimc := 'Obesidade Leve'
+              else
+                if (rimc >= 30) and (rimc < 40) then
+                    strimc := 'Obesidade Moderada'
+                  else
+                    if (rimc >= 40) then
+                        strimc := 'Obedidade Mórbida'
+    end;
+  end;
+  result := strimc;
+  except
+    raise Exception.Create('Erro ao calcular o IMC');
+  end;
+end;
+end.

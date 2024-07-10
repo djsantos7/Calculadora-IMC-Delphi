@@ -1,0 +1,18 @@
+program CalculadoraIMC;
+
+uses
+  Vcl.Forms,
+  uCalculadoraIMC in 'uCalculadoraIMC.pas' {calculadora},
+  uExplicacaoIMC in 'uExplicacaoIMC.pas' {explicacaoIMC},
+  uResultadoIMC in 'uResultadoIMC.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tcalculadora, calculadora);
+  Application.CreateForm(TexplicacaoIMC, explicacaoIMC);
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
